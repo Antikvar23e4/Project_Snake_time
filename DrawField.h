@@ -7,3 +7,4 @@ extern char field[19][19]; //массив символов для отрисов
 extern int applex, appley; //начальные координаты яблок
 void drawApple();
 void drawBorder();
+void cleanField();
