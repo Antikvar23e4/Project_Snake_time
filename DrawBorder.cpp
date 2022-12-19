@@ -5,7 +5,7 @@ void drawBorder()
 	for (int i = 1; i < n - 1; i++)
 	{
 		field[i][0] = border;
-		field[i][m ] = border;
+		field[i][m - 1] = border;
 	}
 	for (int i = 0; i < m; i++)
 	{
