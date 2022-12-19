@@ -1,3 +1,4 @@
+#include "DrawField.h";
 void cleanField()
 {
 	for (int i = 0; i < n; i++)
